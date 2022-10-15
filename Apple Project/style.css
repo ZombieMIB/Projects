@@ -1,0 +1,304 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+header nav li{
+  display: inline-block;
+  width: 10%;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: black;
+  text-align: center;
+}
+
+.hero{
+  margin-top: 8px;
+}
+
+#product-info{
+margin-top: 30px;
+text-align: center;
+}
+
+#product-name{
+  font-weight: 600px;
+}
+
+h1{
+  font-size: 3em;
+}
+
+#product-text{
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.1;
+  margin-top: 10px;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+#product-links{
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+#product-links{
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0 6px 12px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+#product-links > li a:hover{
+  text-decoration: underline #333;
+}
+
+#product-img{
+  background-image: url(./images/hero_iphone_13pro.jpg);
+  height: 600px;
+  display: block;
+  align-items: center;
+  max-width: 100%;
+  margin-top: -200px;
+}
+
+.col-3{
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+}
+
+.hero-sub-images{
+  height: 200px;
+  border-right: 2px solid #fff;
+}
+ 
+#hero-sub-watch{
+  background: url(./images/watch_large.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero-sub-ipad{
+  background: url(./images/ipad_pro_large.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero-sub-access{
+  background: url(./images/accessories_large.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero-sub-macbook{
+  background: url(./images/macbook_large.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#exchange{
+  margin: 22px 0 18px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+#exchange a{
+  color: #08c;
+  text-decoration: none;
+}
+
+#exchange a:hover{
+  text-decoration: underline black;
+}
+
+footer{
+background-color: #f2f2f2;
+font-size: 15px;
+font-weight: 400;
+line-height: 1;
+color: #666;
+border-top: 1px solid #08c;
+}
+
+footer > .container{
+  padding: 0 22px;
+}
+
+.footer-nav{
+  padding-top: 20px;
+}
+
+.col{
+  width: 18%;
+  display: inline-block;
+  vertical-align: top;
+  }
+
+ul{
+  list-style: none;
+}
+
+.footer-nav ul> li:first-child{
+  font-weight: 600;
+  color: #666;
+  padding-top: 20px;
+}
+
+.footer-nav ul> li:not(first-child) > a{
+  text-decoration: none;
+  color: #666;
+}
+
+.footer-nav ul> li:not(first-child) > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #333;
+}
+
+.footer-nav ul> :not(:first-child) {
+  padding-top: 15px;
+}
+
+.footer-help> p:first-child {
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 6px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+
+.footer-help> p:first-child>a{
+  color: #08c;
+  text-decoration: none;
+}
+
+.footer-help>p:first-child>a:hover{
+  text-decoration: underline #333;
+}
+
+#legal{
+  margin-right: 22px;
+}
+
+.footer-help> div{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#legal-links>a:not(last-child){
+  border-right: 1px solid #d6d6d6;
+  margin-right: 10px;
+  padding-right: 12px;
+}
+
+#legal-links>a{
+  color: #666;
+  text-decoration: none;
+}
+
+#legal-links>a:hover{
+  text-decoration: underline #333;
+}
+
+#locale {
+  float: right;
+}
+
+#locale>a{
+  vertical-align: top;
+  display: inline-block;
+  color: #666;
+  text-decoration: none;
+}
+
+#locale-flag{
+  display: inline-block;
+  height: 16px;
+  width: 21px;
+  background: url(./images/usa.png) no-repeat;
+  background-size: 16px 16px;
+  margin-top: 1px;
+  padding-right: 1px;
+}
+
+/*               Borderbox                */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+/*               End of Setup             */
